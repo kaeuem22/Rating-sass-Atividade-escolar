@@ -1,0 +1,20 @@
+@use '../abstracts/reset';
+@use '../abstracts/colors';
+@use '../abstracts/fonts';
+
+* {
+    font-family: fonts.$overpass;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: colors.$dark-blue-100;
+    padding: 2.4rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
